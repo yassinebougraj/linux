@@ -1,0 +1,23 @@
+# !/bin/bash
+        read x
+        if [ $x -lt 10 ];
+        then
+        echo "insuffisant"
+fi
+ if [ $x -le 12 ] && [ $x -gt 10 ];then
+echo "moyen"
+        fi
+
+ if [ $x -le 14 ] && [ $x -gt 12 ];then
+echo "assez"
+        fi
+
+
+ if [ $x -le 16 ] && [ $x -gt 14 ];then
+echo "bien"
+        fi
+
+
+ if [ $x -le 20 ] && [ $x -gt 16 ];then
+echo "t.bien"
+        fi
